@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.tacowasa059.removedirectconnectionbutton.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "removedirectconnectionbutton.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "JoinMultiplayerScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
