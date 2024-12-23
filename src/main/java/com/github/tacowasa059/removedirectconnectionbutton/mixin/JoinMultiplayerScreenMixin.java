@@ -1,11 +1,7 @@
 package com.github.tacowasa059.removedirectconnectionbutton.mixin;
 
 import net.minecraft.client.gui.*;
-import net.minecraft.client.multiplayer.ServerData;
-import net.minecraft.client.multiplayer.ServerList;
-import net.minecraft.client.network.LanServerDetector;
 import net.minecraft.client.resources.I18n;
-import net.minecraft.util.text.ITextComponent;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
