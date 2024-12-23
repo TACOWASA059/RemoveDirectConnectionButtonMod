@@ -15,6 +15,7 @@ import net.minecraft.client.server.LanServerDetection;
 import net.minecraft.network.chat.CommonComponents;
 import net.minecraft.network.chat.Component;
 import org.slf4j.Logger;
+import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -27,6 +28,7 @@ import javax.annotation.Nullable;
 public abstract class JoinMultiplayerScreenMixin extends Screen{
     @Shadow
     private static final Logger LOGGER = LogUtils.getLogger();
+    @Final
     @Shadow
     private  Screen lastScreen;
     @Shadow
@@ -50,7 +52,7 @@ public abstract class JoinMultiplayerScreenMixin extends Screen{
     private boolean initedOnce;
 
     @Shadow
-    protected abstract void joinSelectedServer();
+    public abstract void joinSelectedServer();
 
     @Shadow
     protected abstract void addServerCallback(boolean p_99722_);
