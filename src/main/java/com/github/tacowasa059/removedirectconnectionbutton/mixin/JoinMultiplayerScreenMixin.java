@@ -86,11 +86,11 @@ public abstract class JoinMultiplayerScreenMixin extends Screen {
         }
 
         this.children.add(this.serverSelectionList);
-        this.selectButton = (Button)this.addButton(new Button(this.width / 2 - 154, this.height - 52, 152, 20, new TranslationTextComponent("selectServer.select"), (p_214293_1_) -> {
+        this.selectButton = (Button)this.addButton(new Button(this.width / 2 - 154, this.height - 52, 150, 20, new TranslationTextComponent("selectServer.select"), (p_214293_1_) -> {
             this.joinSelectedServer();
         }));
 
-        this.addButton(new Button(this.width / 2 + 4 + 50, this.height - 52, 152, 20, new TranslationTextComponent("selectServer.add"), (p_214288_1_) -> {
+        this.addButton(new Button(this.width / 2 + 4, this.height - 52, 150, 20, new TranslationTextComponent("selectServer.add"), (p_214288_1_) -> {
             this.editingServer = new ServerData(I18n.get("selectServer.defaultName"), "", false);
             this.minecraft.setScreen(new AddServerScreen(this, this::addServerCallback, this.editingServer));
         }));
