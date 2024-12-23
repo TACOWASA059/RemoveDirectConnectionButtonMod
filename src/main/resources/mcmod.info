@@ -1,0 +1,16 @@
+[
+   {
+      "modid": "removedirectconnectionbutton",
+      "name": "Remove Direct Connection Button",
+      "description": "A mod to remove the Direct Connection button.",
+      "version": "1.0",
+      "mcversion": "1.12.2",
+      "url": "",
+      "updateUrl": "",
+      "authorList": ["TACOWASA_059"],
+      "credits": "",
+      "logoFile": "",
+      "screenshots": [],
+      "dependencies": []
+   }
+]

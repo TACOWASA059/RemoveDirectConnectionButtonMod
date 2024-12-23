@@ -5,5 +5,6 @@ import net.minecraftforge.fml.common.Mod;
 public class RemoveDirectConnectionButton {
     public static final String MODID = "removedirectconnectionbutton";
     public RemoveDirectConnectionButton() {
+
     }
 }

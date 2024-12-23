@@ -1,7 +1,6 @@
 {
-    "pack": {
-        "description": "removedirectconnectionbutton resources",
-                "pack_format": 15
-                                                ,"forge:server_data_pack_format": 12
-                    }
+  "pack":{
+    "pack_format":3,
+    "description":"remove direct connection button"
+  }
 }
